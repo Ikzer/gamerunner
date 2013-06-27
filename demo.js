@@ -1,8 +1,8 @@
 //=============================================================================
-// PONG
+// DEMO
 //=============================================================================
 
-Pong = {
+Demo = {
 
   Defaults: {
     width:  640,   // logical canvas width (browser will scale to physical canvas size - which is controlled by @media css queries)
@@ -40,4 +40,4 @@ Pong = {
     ctx.fillText(count, x, y + dim.height);
   }
 
-}; // Pong
+}; // Demo
